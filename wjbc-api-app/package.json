@@ -1,0 +1,35 @@
+{
+  "name": "wjbc-api-app",
+  "version": "1.0.0",
+  "description": "wjbc-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjbc-app/wjbc-api.git"
+  },
+  "author": "David Chung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wjbc-app/wjbc-api/issues"
+  },
+  "homepage": "https://github.com/wjbc-app/wjbc-api#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-html-reporter": "^0.7.1",
+    "mocha": "^6.1.4",
+    "mocha-junit-reporter": "^1.22.0",
+    "nodemon": "^1.18.11",
+    "sinon": "^7.3.2"
+  }
+}
