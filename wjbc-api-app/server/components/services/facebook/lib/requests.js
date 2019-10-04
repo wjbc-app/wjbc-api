@@ -5,7 +5,6 @@ require('./setup');
 const getGroups = new Promise((resolve, reject) => {
   try {
     FB.api('me/groups', (res) => {
-      console.log('what', res);
       resolve('Post Id: ' + JSON.stringify(res));
     });
   } catch (e) {

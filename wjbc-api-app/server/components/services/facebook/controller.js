@@ -20,5 +20,4 @@ const getGroups = async (req, res) => {
 
 module.exports = {
   getGroups
-  // getGroupFeed
 };
