@@ -12,18 +12,18 @@ const getGroups = new Promise((resolve, reject) => {
   }
 });
 
-const getGroupFeed = new Promise((resolve, reject) => {
-  try {
-    FB.api(`${process.env.GROUP_ID}/feed`, (res) => {
-      console.log('helo', res);
-      resolve(`Result`, JSON.stringify(res));
-    });
-  } catch (e) {
-    reject(`something went wrong`, res);
-  }
-});
+// Need to work on the groupFeed
+// const getGroupFeed = new Promise((resolve, reject) => {
+//   try {
+//     FB.api(`${process.env.GROUP_ID}/feed`, (res) => {
+//       resolve(`Result`, JSON.stringify(res));
+//     });
+//   } catch (e) {
+//     reject(`something went wrong`, res);
+//   }
+// });
 
 module.exports = {
-  getGroups,
-  getGroupFeed
+  getGroups
+  // getGroupFeed
 };

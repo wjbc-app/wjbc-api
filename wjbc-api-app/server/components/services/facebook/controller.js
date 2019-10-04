@@ -9,16 +9,15 @@ const getGroups = async (req, res) => {
   }
 };
 
-const getGroupFeed = async (req, res) => {
-  try {
-    const result = await requests.getGroupFeed();
-    res.status(200).send(result);
-  } catch (e) {
-    res.status(400).send(e);
-  }
-};
+// const getGroupFeed = async (req, res) => {
+//   try {
+//     const result = await requests.getGroupFeed();
+//     res.status(200).send(result);
+//   } catch (e) {
+//     res.status(400).send(e);
+//   }
+// };
 
 module.exports = {
-  getGroups,
-  getGroupFeed
+  getGroups
 };

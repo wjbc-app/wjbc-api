@@ -3,6 +3,7 @@ const { getGroups, getGroupFeed } = require(`./controller`);
 const router = express.Router();
 
 router.route(`/getGroups`).get(getGroups);
-router.route(`/getGroupFeed`).get(getGroupFeed);
+// router.route(`/getGroupFeed`).get(getGroupFeed);
+
 
 module.exports = router;
